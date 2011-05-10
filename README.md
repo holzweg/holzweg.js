@@ -77,7 +77,7 @@ Plugins
             url: "http://phillip.dornauer.cc"
         },
         {
-            name: "Matthias",
+            name: "Mathias",
             url: "http://ailoo.net"
         }
     ]);     
