@@ -1,8 +1,5 @@
 <?php
-header( "content-type: text/javascript" );
-
-
-$files = explode( ",", $_SERVER["QUERY_STRING"] );
+$files = explode(",", $argv[1] );
 
 $output = "";
 
@@ -16,6 +13,5 @@ foreach( $files as $file ){
     $output .= $c . PHP_EOL . PHP_EOL;
 }
 
-file_put_contents( "holzweg.js", $output );
 
 echo $output;
