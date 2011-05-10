@@ -6,7 +6,7 @@ JavaScript Micro Library für Holzweg.
 Build Script
 ------------
 
-`php holzweg.php intro,base,json,tmpl,pubsub,lang,outro`
+`php build.php intro,base,json,tmpl,pubsub,lang,outro`
 
 
 Plugins
