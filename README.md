@@ -66,12 +66,12 @@ Plugins
 ### hw.tmpl
 
     <script type="text/html" id="hw_template">
-      <% for ( var i = 0; i < users.length; i++ ) { %>
-        <li><a href="<%=users[i].url%>"><%=users[i].name%></a></li>
-      <% } %>
+      <? for ( var i = 0; i < users.length; i++ ) { ?>
+        <li><a href="<?=users[i].url?>"><?=users[i].name?></a></li>
+      <? } ?>
     </script>
     
-    tmpl("hw_template", {users: [
+    hw.tmpl("hw_template", {users: [
         {
             name: "Phillip",
             url: "http://phillip.dornauer.cc"
