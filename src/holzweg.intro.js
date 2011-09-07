@@ -1,3 +1,3 @@
 (function(window, undefined){
 	
-	var holzweg = {};
+	var holzweg = { version: 0.0.1 };
