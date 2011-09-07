@@ -1,7 +1,17 @@
 holzweg.js
 ==========
 
-JavaScript Micro Library für Holzweg.
+JavaScript Micro Library Collection für Holzweg.
+
+
+Thanks to
+---------
+
+* Thomas Fuchs < @thomasfuchs > for the Tweet-Sized Template Function - http://bit.ly/i2R6f3
+* John Resig < @jeresig > for the Template Function - http://bit.ly/Dqa4
+* Dean Edwards for the Base Class - http://bit.ly/Hztrk
+
+
 
 Build Script
 ------------
