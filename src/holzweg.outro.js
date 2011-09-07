@@ -1,4 +1,4 @@
-	window.holzweg = window.hw = holzweg;
+	global.holzweg = global.hw = holzweg;
 
 })(window);
 

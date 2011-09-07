@@ -33,19 +33,3 @@ Array.prototype.sequence = function( ){
 	
 	return this;
 };
-
-
-/**
-
-Example:
-	["phill", "michi", "walter", "christian" ].sequence( "odd", "even" ).each(function( sequence, el ){
-		console.log( "style: " +  sequence + " ; el: " + el );
-	});
-	
-Result:
-	style: odd ; el: phill
-	style: even ; el: michi
-	style: odd ; el: walter
-	style: even ; el: christian
-	
-*/
