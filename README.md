@@ -146,3 +146,8 @@ Plugins
     </script>
 
 
+TODO
+----
+
+* better docs
+* add unit testing
