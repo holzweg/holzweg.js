@@ -1,6 +1,6 @@
 holzweg.base = function(){}
 
-holzweg.base.extend = function( instance, static ){
+holzweg.base.extend = function( instance, stat ){
 	var extend = holzweg.base.prototype.extend;
 
 	holzweg.base._prototyping = true;
@@ -34,7 +34,7 @@ holzweg.base.extend = function( instance, static ){
 	klass.valueOf = function(type) {
 		return (type == "object") ? klass : constructor.valueOf();
 	};
-	extend.call(klass, static );
+	extend.call(klass, stat );
 
 	if (typeof klass.init == "function") klass.init();
 	return klass;

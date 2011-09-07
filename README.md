@@ -1,13 +1,13 @@
 holzweg.js
 ==========
 
-JavaScript Micro Library Collection für Holzweg.
+JavaScript Library Collection for Holzweg.
 
 
 Thanks to
 ---------
 
-* Thomas Fuchs < @thomasfuchs > for the Tweet-Sized Template Function - http://bit.ly/i2R6f3
+* Thomas Fuchs < @thomasfuchs > for the Tweet-Sized Template Function / Keymasters.js - http://bit.ly/i2R6f3
 * John Resig < @jeresig > for the Template Function - http://bit.ly/Dqa4
 * Dean Edwards for the Base Class - http://bit.ly/Hztrk
 
@@ -16,7 +16,12 @@ Thanks to
 Build Script
 ------------
 
-`php build.php intro,base,loops,keys,mouse,routes,json,tmpl,pubsub,lang,outro`
+`php bin/build.php`
+
+##### Minify
+Minify the code with google closure compiler ( bin/compiler.jar )
+
+`php bin/build.php --min`
 
 
 Plugins

@@ -12,7 +12,7 @@ document.onmousemove = function(e) {
 		posx = e.pageX;
 		posy = e.pageY;
 	} else if (e.clientX || e.clientY) {
-		posx = e.clientX + document.body.scrollLeft;
+		posx = e.clientX + document.body.scrollLeft
 				+ document.documentElement.scrollLeft;
 		posy = e.clientY + document.body.scrollTop
 				+ document.documentElement.scrollTop;

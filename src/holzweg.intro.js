@@ -1,3 +1,3 @@
 (function(global, undefined){
 	
-	var holzweg = { version: 0.0.1 };
+	var holzweg = { version: "0.0.1" };
